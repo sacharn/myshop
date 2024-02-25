@@ -5,6 +5,21 @@
     "weightUnit": "kg",
     "timezone": "UTC"
   },
+  "checkout": {
+    "allowCountries": [
+        "US",
+        "VN"
+    ],
+    "shippingRate": [
+        {
+            "condition": {},
+            "destimation": [
+                "*"
+            ],
+            "rate": 10
+        }
+    ]
+},
   "system": {
     "database": {
       "host": "localhost",
@@ -14,4 +29,5 @@
       "password": "123456"
     }
   }
+
 }
